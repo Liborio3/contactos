@@ -54,7 +54,6 @@ class ContactDAOTest {
 			System.out.println(contact);
 		}
 		assertNotNull(contact);
-		System.out.println("Estoy probando github");
 	}
 
 	@Test
