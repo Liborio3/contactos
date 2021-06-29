@@ -36,6 +36,9 @@ class ContactDAOTest {
 		Contact contact = new Contact("Bill Gates", "bill@microsoft.com", "Redmon, WA", "1800123456789");
 		int result = dao.save(contact);
 		assertTrue(result > 0);
+		
+		//siguo provando github 
+		System.out.println(contact);
 	}
 
 	@Test
